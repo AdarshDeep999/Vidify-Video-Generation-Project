@@ -1,4 +1,4 @@
-BradAI: AI Story-to-Video Generator
+Vidify: AI Story-to-Video Generator
 Project Overview
 BradAI is an end-to-end generative AI pipeline that transforms a user's short story into a complete, narrated video. This project orchestrates multiple, distinct AI models to manage a complex creative workflow: from script analysis and scene generation to voice synthesis and final video assembly.
 
@@ -47,7 +47,7 @@ Open the Notebook:
 Open the bradAI_Video_Generator.ipynb file from this repository in Google Colab.
 
 Configure API Keys:
-This project requires API keys from three different services. In the Colab notebook, open the Secrets Manager (key icon 🔑 on the left sidebar) and add the following four secrets:
+This project requires API keys from three different services. In the Colab notebook, fill these in required cell:
 
 GOOGLE_API_KEY: Your key from Google AI Studio.
 
@@ -64,7 +64,7 @@ Find the Output:
 The final .mp4 video file will be generated and will appear in the Colab file explorer on the left sidebar, from where it can be downloaded. The process can take several minutes to complete depending on the length of the story.
 
 Project Structure
-bradAI_Video_Generator.ipynb: The main executable notebook containing the complete, documented pipeline.
+Vidify_Video_Generator.ipynb: The main executable notebook containing the complete, documented pipeline.
 
 README.md: This project overview file.
 
